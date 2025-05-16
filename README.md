@@ -9,4 +9,6 @@ And i have CRM system for this reason i am used this expirience for this project
 in this quetions.
 
 👆second step🤞
+
+you must make Telegram bot and take him token in botfather 
 '''
