@@ -1,4 +1,4 @@
-# crm-api-bot
+# training-bot-crm
 '''
 Now we try make bot telegram for python and maby in future
 connect to somthing LLM chatGPT for example 
