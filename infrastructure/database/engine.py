@@ -5,6 +5,8 @@ from infrastructure.vault_client import VaultClient
 
 load_dotenv()
 
+
+
 DATABASE_URL = os.getenv("DB_URL")
 
 if DATABASE_URL is None:
@@ -19,5 +21,6 @@ if DATABASE_URL is None:
 
 if not DATABASE_URL:
     raise RuntimeError("Database URL not configured")
+
 
 engine = create_engine(DATABASE_URL, echo=False, future=True)

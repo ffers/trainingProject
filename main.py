@@ -4,6 +4,7 @@ from application.services.ai_agent import TestAIAgent
 load_dotenv()
 
 
+
 def main():
     agent = TestAIAgent()
     print("Type 'quit' to exit.")
@@ -17,3 +18,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
