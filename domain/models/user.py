@@ -9,10 +9,8 @@ class User(Base):
     name = Column(String, nullable=False)
 
 
-'''
-
+"""
 add model
 connect db with alembic
 make alembic.ini url db
-
-'''
+"""
