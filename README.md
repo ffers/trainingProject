@@ -11,4 +11,6 @@ in this quetions.
 👆second step🤞
 
 you must make Telegram bot and take him token in botfather 
-'''
+
+## Test AI agent
+Run `python main.py` to chat with the simple rule-based AI agent. Type `quit` to exit.
