@@ -38,6 +38,7 @@ share/python-wheels/
 MANIFEST
 .venv/
 .config/config_secrets.py
+.vscode/
 
 
 # PyInstaller
