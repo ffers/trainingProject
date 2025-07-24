@@ -1,7 +1,12 @@
 
 
 
-from dotenv import load_dotenv
+import pytest
+
+pytest.skip("integration example", allow_module_level=True)
+
+dotenv = pytest.importorskip("dotenv")
+load_dotenv = dotenv.load_dotenv
 import os
 load_dotenv()
 
