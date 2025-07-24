@@ -11,7 +11,9 @@ in this quetions.
 👆second step🤞
 
 you must make Telegram bot and take him token in botfather 
-
+install dependens requirements
+start fastapi
+write youre bot question
 
 
 ## Test AI agent
@@ -19,4 +21,7 @@ Run `python main.py` to chat with the simple rule-based AI agent. Type `quit` to
 
 
 '''\n### Secrets management\nThis project can load configuration from [HashiCorp Vault](https://www.vaultproject.io/). Set `VAULT_ADDR` and `VAULT_TOKEN` environment variables. If `DB_URL` is not present in the environment, the application will fetch it from `VAULT_DB_PATH` using optional `VAULT_DB_KEY` (defaults to `DB_URL`).\n
+
+
+
 

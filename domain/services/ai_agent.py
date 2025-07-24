@@ -11,7 +11,7 @@ class TestAIAgent:
 
     def respond(self, message: Message) -> str:
         if '/start' in message.text:
-            return self.tg.sendMessage('Hello! I am a test AI agent.', message.chat_id)
+            return self.tg.sendMessage('Hello! I am a test AI agent. Я трохи довго думаю але я працюю', message.chat_id)
         self.tg.sendMessage('Думаю...', message.chat_id)
         result = send_promt(message)
         """Return a response based on the message content."""
