@@ -13,10 +13,9 @@ from flatten_json import flatten
 from dotenv import load_dotenv
 load_dotenv()
 
+
 from application.cntrl import Cntrl
 from domain.dto.tg_message import Message
-
-
 
 
 app = FastAPI()
